@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/",   // ✅ always root on Netlify
+  base: "/index.html",   // ✅ always root on Netlify
 })
